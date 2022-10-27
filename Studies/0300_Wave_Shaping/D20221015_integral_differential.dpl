@@ -1,0 +1,37 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=0,-210,1124,560,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=D20221015_integral_differential.dat>
+  <DataDisplay=D20221015_integral_differential.sch>
+  <OpenDisplay=1>
+  <Script=D20221015_integral_differential.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 70 355 441 285 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ngspice/tran.v(pr1)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 640 360 437 290 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ngspice/tran.v(pr2)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 64 20 438 167 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ngspice/tran.v(in)" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+  <Text 780 410 12 #000000 0 "Differential Output">
+  <Text 230 410 12 #000000 0 "Integral Output">
+  <Text 260 -190 12 #000000 0 "Input">
+</Paintings>

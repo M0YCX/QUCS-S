@@ -1,0 +1,39 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=0,0,1060,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=D20221021_Transformer_K_Coupling_Inductors_Test_Bench.dat>
+  <DataDisplay=D20221021_Transformer_K_Coupling_Inductors_Test_Bench.sch>
+  <OpenDisplay=1>
+  <Script=D20221021_Transformer_K_Coupling_Inductors_Test_Bench.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Smith 100 300 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.i(v.xs11_probe1.v1)" #0000ff 0 3 0 0 0>
+  </Smith>
+  <Smith 450 310 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.i(e.xs21_probe1.esrc1)" #0000ff 0 3 0 0 0>
+  </Smith>
+  <Smith 100 630 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.i(e.xs22_probe1.esrc1)" #0000ff 0 3 0 0 0>
+  </Smith>
+  <Smith 450 650 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.i(e.xs12_probe1.esrc1)" #0000ff 0 3 0 0 0>
+  </Smith>
+  <Rect 780 260 240 160 3 #c0c0c0 1 00 1 0 2e+07 1e+08 1 0 0.02 0.04 1 -1 1 1 315 0 225 "" "" "">
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

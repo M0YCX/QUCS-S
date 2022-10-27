@@ -1,0 +1,42 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=-241,-50,1223,1248,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=D20220813_50MHz_RF_PreAmp.dat>
+  <DataDisplay=D20220813_50MHz_RF_PreAmp.sch>
+  <OpenDisplay=1>
+  <Script=D20220813_50MHz_RF_PreAmp.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect -100 304 380 244 3 #c0c0c0 1 13 1 3e+07 1 1e+08 1 4.72436e-07 2e-08 5.93345e-07 1 0 5e-07 1.65356e-06 315 0 225 "" "" "">
+	<"ngspice/ac.v(out)" #0000ff 0 3 0 0 1>
+	  <Mkr 5.00083e+07 193 -49 3 0 0>
+	<"ngspice/ac.v(in)" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 460 268 362 248 3 #c0c0c0 1 10 1 3e+07 1 1e+08 1 30 1 100 1 -1 0.2 1 315 0 225 "" "" "">
+	<"ngspice/ac.zin" #0000ff 0 3 0 0 0>
+	  <Mkr 5.00083e+07 -5 -287 3 0 0>
+  </Rect>
+  <Smith -80 1168 478 478 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(in)" #0000ff 3 3 0 0 0>
+  </Smith>
+  <Rect -100 638 379 238 3 #c0c0c0 1 10 1 4e+07 1e+07 1e+08 1 0.999999 1e-07 0.999999 1 0 1e-06 3.34307e-06 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns11)" #0000ff 0 3 0 0 0>
+	<"ngspice/ac.v(ns21)" #ff0000 0 3 0 0 1>
+	  <Mkr 5.00083e+07 222 -143 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

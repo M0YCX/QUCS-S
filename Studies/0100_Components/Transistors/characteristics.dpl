@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=0,0,988,1034,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=characteristics.dat>
+  <DataDisplay=characteristics.sch>
+  <OpenDisplay=1>
+  <Script=characteristics.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 100 579 791 509 3 #c0c0c0 1 00 1 0 2 20 1 -0.0250489 0.05 0.275538 1 0 0.1 1.0405 315 0 225 "" "" "">
+	<"ngspice/i(pr1)" #0000ff 0 3 0 0 0>
+	  <Mkr 5.00286/0.82 479 -174 3 0 0>
+	  <Mkr 5.00286/0.91 466 -455 3 0 0>
+	  <Mkr 5.00286/0.865 172 -306 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

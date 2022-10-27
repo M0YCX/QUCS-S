@@ -1,0 +1,29 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=Silicon_signal_shunt.dat>
+  <DataDisplay=Silicon_signal_shunt.sch>
+  <OpenDisplay=1>
+  <Script=Silicon_signal_shunt.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 472 576 372 3 #c0c0c0 1 00 1 0.001 0.0005 0.005 1 -6 2 6 1 -1 0.2 1 315 0 225 "" "" "">
+	<"ngspice/tran.v(out)" #0000ff 2 3 0 0 0>
+	<"ngspice/tran.v(in)" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
