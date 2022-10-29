@@ -1,0 +1,69 @@
+<Qucs Schematic 0.0.24>
+<Properties>
+  <View=-48,-36,1635,1241,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=D20221029_L_Network_TB.dat>
+  <DataDisplay=D20221029_L_Network_TB.sch>
+  <OpenDisplay=1>
+  <Script=D20221029_L_Network_TB.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 60 230 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 -0.045835 0.2 0.506094 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(out)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 25 -241 3 1 0>
+  </Rect>
+  <Smith 510 260 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns11)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.03852e+07 -126 -276 3 0 0>
+  </Smith>
+  <Smith 510 540 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns21)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.03852e+07 -5 10 3 0 0>
+  </Smith>
+  <Rect 60 790 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 -0.045835 0.2 0.506094 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(rev)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 118 -198 3 0 0>
+  </Rect>
+  <Smith 510 830 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 1 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns22)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 -9 7 3 0 0>
+  </Smith>
+  <Rect 830 810 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 0.330594 0.5 1.06086 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns22)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.03852e+07 168 -62 3 0 0>
+  </Rect>
+  <Rect 830 1100 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 -0.0916699 0.5 1.16219 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns12)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 146 -190 3 0 0>
+  </Rect>
+  <Rect 780 240 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 0.330594 0.5 1.06086 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns11)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.03852e+07 125 42 3 0 0>
+  </Rect>
+  <Rect 780 520 240 160 3 #c0c0c0 1 11 1 0 5e+07 2.00147e+08 1 -0.0916699 0.5 1.16219 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns21)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 131 -167 3 0 0>
+  </Rect>
+  <Rect 1110 240 240 160 3 #c0c0c0 1 11 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ngspice/ac.pout" #0000ff 0 3 0 0 0>
+	  <Mkr 7.04302e+07 78 -64 3 1 0>
+  </Rect>
+  <Smith 510 1130 200 200 3 #c0c0c0 1 00 1 0 1 1 1 0 4 2.57196 1 0 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.v(ns12)" #0000ff 0 3 0 0 0>
+	  <Mkr 7.03852e+07 -64 40 3 0 0>
+  </Smith>
+</Diagrams>
+<Paintings>
+</Paintings>
