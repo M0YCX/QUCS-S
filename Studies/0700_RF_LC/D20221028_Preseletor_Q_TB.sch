@@ -33,12 +33,12 @@
   <Sub S22_Probe1 1 960 560 -20 44 0 0 "/home/bev/Documents/Radio/QUCS-S/_probes/S22_Probe.sch" 0 "50" 1>
   <GND * 1 620 330 0 0 0 0>
   <GND * 1 620 780 0 0 0 0>
-  <.AC AC1 1 50 150 0 46 0 0 "log" 1 "60 MHz" 1 "80 MHz" 1 "2000" 1 "no" 0>
-  <Sub SUB2 1 710 710 183 90 0 0 "/home/bev/Documents/Radio/QUCS-S/Studies/0700_RF_LC/D20221028_Preseletor_Q.sch" 0 "10nH" 1 "233nH" 1 "10nH" 1 "1" 0 "1" 0 "1" 0 "15pf" 1>
+  <.AC AC1 1 50 150 0 46 0 0 "log" 1 "1 MHz" 1 "150 MHz" 1 "4000" 1 "no" 0>
   <GND * 1 790 330 0 0 0 0>
   <GND * 1 790 780 0 0 0 0>
-  <Sub SUB1 1 710 260 171 93 0 0 "/home/bev/Documents/Radio/QUCS-S/Studies/0700_RF_LC/D20221028_Preseletor_Q.sch" 0 "10nH" 1 "232.714nH" 1 "10nH" 1 "1" 0 "1" 0 "1" 0 "15pf" 1>
   <NutmegEq NutmegEq1 1 1170 280 -31 16 0 0 "ac" 1 "pout=(v(out)^2)/50" 1>
+  <Sub SUB1 1 710 260 175 90 0 0 "/home/bev/Documents/Radio/QUCS-S/Studies/0700_RF_LC/D20221028_Preseletor_Q.sch" 0 "10nH" 1 "232.714nH" 1 "10nH" 1 "1" 0 "1" 0 "1" 0 "15pf" 1>
+  <Sub SUB2 1 710 710 187 87 0 0 "/home/bev/Documents/Radio/QUCS-S/Studies/0700_RF_LC/D20221028_Preseletor_Q.sch" 0 "10nH" 1 "233nH" 1 "10nH" 1 "1" 0 "1" 0 "1" 0 "15pf" 1>
 </Components>
 <Wires>
   <400 130 400 230 "" 0 0 0 "">

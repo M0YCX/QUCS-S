@@ -1,6 +1,6 @@
-<Qucs Schematic 0.0.24>
+<Qucs Schematic 1.0.1>
 <Properties>
-  <View=0,-40,1961,732,1,0,0>
+  <View=0,-40,1961,684,1,0,0>
   <Grid=10,10,1>
   <DataSet=D20221020_RLB_2.dat>
   <DataDisplay=D20221020_RLB_2.dpl>
@@ -33,15 +33,15 @@
   <VProbe Pr1 1 930 490 -16 28 0 3>
   <DIODE_SPICE D1 1 630 490 -65 99 0 1 "DI_1N5711WS" 1 "" 0 "" 0 "" 0 "" 0>
   <SpiceModel SpiceModel1 1 140 610 -30 16 0 0 ".MODEL DI_1N5711WS D  ( IS=315n RS=2.80 BV=70.0 IBV=10.0u CJO=2.00p  M=0.333 N=2.03 TT=1.44n )" 1 "" 0 "" 0 "" 0 "Line_5=" 0>
-  <Vac V1 1 140 250 18 -26 0 1 "1 V" 1 "70 MHz" 1 "0" 0 "0" 0>
   <.AC AC1 1 110 420 0 40 0 0 "lin" 1 "1 MHz" 1 "100 MHz" 1 "2000" 1 "no" 0>
   <R R7 1 510 490 -109 -9 0 1 "50 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <GND * 1 510 560 0 0 0 0>
   <Lib TRAN2 1 470 170 -20 100 0 0 "Transformers" 0 "PositiveCouplingPS" 0 "0.99" 1 "35u" 1 "35u" 1 "0.2" 1 "0.2" 1>
   <C C3 1 730 260 17 -26 0 1 "1 pF" 1 "" 0 "neutral" 0>
   <L L1 1 830 260 10 -26 0 1 "100 nH" 1 "" 0>
-  <.SW SW1 1 1200 10 0 65 0 0 "AC1" 1 "lin" 1 "C3" 1 "1 pF" 1 "1000 pF" 1 "10" 1 "false" 0>
   <R R8 1 1010 260 15 -26 0 1 "50 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
+  <Vac V1 1 140 250 18 -26 0 1 "1 V" 1 "70 MHz" 0 "0" 0 "0" 0>
+  <.SW SW1 1 930 10 0 65 0 0 "AC1" 1 "lin" 1 "C3" 1 "1 pF" 1 "1000 pF" 1 "10" 1 "false" 0>
 </Components>
 <Wires>
   <140 40 330 40 "" 0 0 0 "">
