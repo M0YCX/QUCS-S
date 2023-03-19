@@ -1,6 +1,6 @@
 <Qucs Schematic 1.0.1>
 <Properties>
-  <View=-63,136,1723,1228,1,0,0>
+  <View=-63,136,1723,1228,1,0,60>
   <Grid=10,10,0>
   <DataSet=rc-1.dat>
   <DataDisplay=rc-1.sch>
@@ -43,5 +43,7 @@
 </Diagrams>
 <Paintings>
   <Arrow 1320 650 -60 -170 20 8 #e01b24 2 1 0>
+  <Text 330 710 12 #1c71d8 0 "Phase angle of current and the\nvoltage across R1 lead by i theta\ndegrees">
+  <Text 680 760 12 #e01b24 0 "Phase angle of voltage across C1\nlags by v theta degrees.">
   <Arrow 390 650 -100 -190 20 8 #1c71d8 2 1 0>
 </Paintings>
