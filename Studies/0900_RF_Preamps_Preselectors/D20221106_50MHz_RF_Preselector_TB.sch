@@ -1,4 +1,4 @@
-<Qucs Schematic 0.0.24>
+<Qucs Schematic 1.0.1>
 <Properties>
   <View=0,21,1304,1426,1,0,0>
   <Grid=10,10,1>
@@ -34,7 +34,7 @@
   <GND * 1 650 770 0 0 0 0>
   <GND * 1 820 770 0 0 0 0>
   <NutmegEq NutmegEq1 1 1140 300 -31 16 0 0 "ac" 1 "pout=(v(out)^2)/50" 1>
-  <.AC AC1 1 70 150 0 46 0 0 "lin" 1 "30 MHz" 1 "200MHz" 1 "2000" 1 "no" 0>
+  <.AC AC1 1 70 150 0 46 0 0 "lin" 1 "30 MHz" 1 "100MHz" 1 "2000" 1 "no" 0>
   <Sub S11_Probe1 1 480 110 -20 43 0 0 "/home/bev/Documents/Radio/QUCS-S/_probes/S11_Probe.sch" 0 "50" 1>
   <Sub S12_Probe1 1 540 510 -40 34 0 0 "/home/bev/Documents/Radio/QUCS-S/_probes/S12_Probe.sch" 0 "50" 1>
   <Sub SUB1 1 740 710 -26 51 0 0 "/home/bev/Documents/Radio/QUCS-S/Studies/0900_RF_Preamps_Preselectors/D20221106_50MHz_RF_Preselector.sch" 0>
@@ -69,9 +69,9 @@
   <480 690 480 690 "rev" 420 650 0 "">
   <1040 130 1040 130 "nS21" 1040 90 0 "">
   <1060 580 1060 580 "nS22" 1060 540 0 "">
-  <970 230 970 230 "out" 1000 200 0 "">
   <540 130 540 130 "nS11" 550 100 0 "">
   <600 530 600 530 "nS12" 610 490 0 "">
+  <970 230 970 230 "out" 1000 200 0 "">
 </Wires>
 <Diagrams>
 </Diagrams>

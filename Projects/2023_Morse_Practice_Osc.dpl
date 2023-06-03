@@ -1,0 +1,50 @@
+<Qucs Schematic 1.0.1>
+<Properties>
+  <View=-40,110,1856,1655,1,40,540>
+  <Grid=10,10,0>
+  <DataSet=2023_Morse_Practice_Osc.dat>
+  <DataDisplay=2023_Morse_Practice_Osc.sch>
+  <OpenDisplay=1>
+  <Script=2023_Morse_Practice_Osc.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 80 427 389 297 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(oscout)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 539 429 368 299 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(t1out)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 124 822 383 283 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(out)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 980 431 407 301 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(t1out2)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 1000 787 379 247 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(oscright)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 570 822 367 282 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(oscleft)" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 130 1579 873 359 3 #c0c0c0 1 00 1 0 100 934.999 1 nan 1 0.01 1 -1 0.5 1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/ac.v(out)" #0000ff 0 3 0 0 0>
+	  <Mkr 710 366 -389 3 1 0>
+  </Rect>
+  <Rect 120 1060 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 0 0 0 "" "" "">
+	<"ngspice/tran.v(oscout2)" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
